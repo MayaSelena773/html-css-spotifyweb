@@ -13,6 +13,7 @@
     width: 100%;
     height: 100vh;
     background-color: lightcoral;
+    position: relative;
 }
 
 /*TEST*/
@@ -27,22 +28,26 @@ main {
 .side-nav {
     background-color: lightskyblue;
     width: 250px;
+    overflow-y: hidden;
 }
 
 .main-content {
     background-color: aqua;
     width: calc(100% - 250px);
+    overflow-y: auto;
 }
 
 .banner {
-    background-color: lightgray;
-    width: 100%;
+    background-color: lightcyan;
+    width: calc(100% - 250px);
     height: 80px;
-    
+    position: absolute;
+    right: 0;
+    display: block;
 }
 
 footer {
-    background-color: blanchedalmond;
+    background-color: lightyellow;
     width: 100%;
     height: 100px;
 }
