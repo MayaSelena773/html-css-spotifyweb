@@ -16,8 +16,6 @@
     position: relative;
 }
 
-/*TEST*/
-
 main {
     background-color: lightgreen;
     width: 100%;
@@ -25,17 +23,7 @@ main {
     display: flex;
 }
 
-.side-nav {
-    background-color: lightskyblue;
-    width: 250px;
-    overflow-y: hidden;
-}
-
-.main-content {
-    background-color: aqua;
-    width: calc(100% - 250px);
-    overflow-y: auto;
-}
+/*banner*/
 
 .banner {
     background-color: lightcyan;
@@ -43,8 +31,42 @@ main {
     height: 80px;
     position: absolute;
     right: 0;
-    display: block;
+    display: flex;
+    justify-content: flex-end;
 }
+
+.btn-up {
+    border: 1px solid;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*side-nav*/
+.side-nav {
+    background-color: lightskyblue;
+    width: 250px;
+    overflow-y: hidden;
+}
+
+/*main-content*/
+.main-content {
+    background-color: aqua;
+    width: calc(100% - 250px);
+    overflow-y: auto;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.soundtrack {
+    width: 130px;
+    height: 130px;
+    border: 1px solid;
+    margin-left: 10px;
+}
+
+
+/*footer*/
 
 footer {
     background-color: lightyellow;
