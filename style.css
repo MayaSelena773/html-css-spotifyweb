@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@100;200;300;400;500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 /*RESET*/
 
 * {
@@ -8,6 +10,14 @@
 }
 
 /*COMMON*/
+
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+}
 
 .app-container{
     width: 100%;
@@ -25,6 +35,10 @@ main {
 
 ul {
     list-style-type: none;
+}
+
+hr {
+    margin: 0.5rem;
 }
 
 /*banner*/
@@ -57,12 +71,13 @@ ul {
 
 /*side-nav*/
 .side-nav {
-    background-color: lightskyblue;
+    background-color: black;
     width: 250px;
     padding-left: 1rem;
     overflow-y: hidden;
     display: flex;
     flex-direction: column;
+    line-height: 30px;
 }
 
 .logo {
@@ -85,11 +100,22 @@ ul {
 }
 
 .opacity {
-    opacity: 0.8;
+    opacity: 0.4;
 }
 
 .opacity:hover {
     opacity: initial;
+}
+
+.icon-small {
+    width: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    vertical-align: middle;
+}
+
+.account {
+    margin-bottom: 0.5rem;
 }
 
 /*main-content*/
