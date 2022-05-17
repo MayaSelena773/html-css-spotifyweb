@@ -23,6 +23,10 @@ main {
     display: flex;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /*banner*/
 
 .banner {
@@ -33,19 +37,41 @@ main {
     right: 0;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .btn-up {
     border: 1px solid;
+    border-radius: 20px;
     text-align: center;
     text-decoration: none;
+    margin-right: 5px;
+    padding: 10px;
+    font-size: x-small;
+}
+
+.btn-up:hover {
+    font-size: smaller;
 }
 
 /*side-nav*/
 .side-nav {
     background-color: lightskyblue;
     width: 250px;
+    padding-left: 1rem;
     overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin: 1rem;
+}
+
+.playlists {
+    flex-grow: 1;
 }
 
 /*main-content*/
@@ -62,7 +88,8 @@ main {
     width: 130px;
     height: 130px;
     border: 1px solid;
-    margin-left: 10px;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -72,4 +99,7 @@ footer {
     background-color: lightyellow;
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
