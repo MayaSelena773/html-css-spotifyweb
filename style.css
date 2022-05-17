@@ -75,6 +75,23 @@ ul {
     flex-grow: 1;
 }
 
+.icon {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.white-text {
+    color: white;
+}
+
+.opacity {
+    opacity: 0.8;
+}
+
+.opacity:hover {
+    opacity: initial;
+}
+
 /*main-content*/
 .main-content {
     background-color: aqua;
