@@ -144,17 +144,22 @@ hr {
 }
 
 .top-menu {
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     font-size: smaller;
 }
 
 .soundtrack {
-    background-color: aliceblue;
     width: 130px;
     height: 130px;
-    border: 1px solid;
+}
+
+.margin-img {
     margin-left: 1rem;
     margin-bottom: 3rem;
+}
+
+.soundtrack:hover {
+    filter: opacity(0.4);
 }
 
 
