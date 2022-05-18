@@ -58,6 +58,10 @@ hr {
     padding: 1rem 1rem;
 }
 
+.align-center {
+    text-align: center;
+}
+
 /*banner*/
 
 .banner {
@@ -162,6 +166,9 @@ hr {
     filter: opacity(0.4);
 }
 
+.circle {
+    border-radius: 50%;
+}
 
 /*footer*/
 
