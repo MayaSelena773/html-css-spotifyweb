@@ -32,20 +32,21 @@
             <div class="side-nav">
 
                 <div class="logo">
-                    <img src="/img/img/logo.svg" alt="Spotify">
+                    <img src="/img/img/logo.svg" alt="Spotify" class="xs-none">
+                    <img src="img/img/logo-small.svg" alt="logo-small" class="lg-none icon margin-logo">
                 </div>
 
                 <div class="nav-menu white-text">
 
                     <ul>
-                        <li class="opacity"><img src="/img/img/home.svg" alt="home" class="icon"> Home</li>
-                        <li class="opacity"><img src="/img/img/search.svg" alt="search" class="icon"> Cerca</li>
-                        <li class="opacity"><img src="/img/img/libreria.svg" alt="libreria" class="icon"> La tua libreria</li>
+                        <li class="opacity"><img src="/img/img/home.svg" alt="home" class="icon"> <span class="xs-none">Home</span></li>
+                        <li class="opacity"><img src="/img/img/search.svg" alt="search" class="icon"> <span class="xs-none">Cerca</span></li>
+                        <li class="opacity"><img src="/img/img/libreria.svg" alt="libreria" class="icon"> <span class="xs-none">La tua libreria</span></li>
                     </ul>
 
                 </div>
 
-                <div class="playlists white-text">
+                <div class="playlists white-text xs-none">
 
                     <h4 class="padding-text">PLAYLIST</h4>
                     <span class="opacity"><i class="fa-solid fa-square-plus plus-playlist"></i> Crea Playlist</span>
@@ -62,10 +63,16 @@
 
                 </div>
 
-                <div class="account white-text">
-                    <span class="opacity"><i class="fa-solid fa-circle-arrow-down"></i> installa app</span>  
-                    <hr>
-                    <span><img src="/img/img/profile.svg" alt="profile" class="icon-small"> John Doe</span>
+                <div class="account white-text flex-end">
+                    <div class="opacity flex-items"><i class="fa-solid fa-circle-arrow-down"></i> 
+                        <span class="xs-none">installa app</span> 
+                    </div>  
+
+                    <hr class="xs-none">
+
+                    <div class="flex-items"><img src="/img/img/profile.svg" alt="profile" class="icon-small"> 
+                        <span class="xs-none">John Doe</span> 
+                    </div>
                 </div>
 
             </div>
@@ -176,7 +183,7 @@
 
                     <div class="margin-img"><img src="img/img/youg.jpeg" alt="youg" class="soundtrack circle">
                         <div class="white-text align-center ">
-                            <div>lana Del Rei</div>
+                            <div>lana Del Rey</div>
                             <div class="opacity">Subtitle</div>
                         </div>
                     </div>
